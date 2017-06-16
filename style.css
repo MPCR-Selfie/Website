@@ -278,10 +278,19 @@ footer {
     margin: 50px 0;
 }
 
+.phone {
+    margin-left: 25px;
+}
+
+#myCarousel {
+    margin-top: 170px;
+}
+
 ol.carousel-indicators li{
     width: 30px;
     height: 30px;
     border-color: transparent;
+    /*padding-top: 30px;*/
 }
 
 ol.carousel-indicators li.active{
@@ -314,7 +323,6 @@ ol.carousel-indicators li.active div{
 .fill {
     width: 100%;
     height: 100%;
-    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -322,18 +330,37 @@ ol.carousel-indicators li.active div{
 }
 
 #image1 {
-    background-image:url('photos/IMG_2224.JPG');
+    /*background-image:url('photos/IMG_2224.JPG');*/
 
 
 }
 
 #image2 {
-    background-image:url('photos/IMG_2972.PNG');
+    /*background-image:url('photos/2017-5-19-75841.jpg');*/
+    background-position: bottom;
 }
 
 #image3 {
-    background-image:url('http://vira1368.persiangig.com/bootstrap%20template/full-slider/images/slide-3.jpg');
+    /*background-image:url('photos/2017-4-2-70810.jpg');*/
+    background-position: center;
+
 }
+
+#image4 {
+    /*background-image:url('photos/2017-5-19-71813.jpg');*/
+    background-position: bottom;
+}
+#image5 {
+    /*background-image:url('photos/2017-5-19-72713.jpg');*/
+    background-position: bottom;
+}
+
+#image6 {
+    /*background-image:url('photos/2017-5-19-76676.jpg');*/
+    background-position: bottom;
+
+}
+
 
 /*#item1 {*/
     /*background-image:url('http://vira1368.persiangig.com/bootstrap%20template/full-slider/images/hover-pag-1.png');*/
@@ -550,82 +577,6 @@ a.booking_qx {
 
 .banner_hotels_all_abouts p{font-family: RadikalW01-Medium;line-height: 30px;text-align: center;}
 .banner_hotels_all_abouts p span{ color:#ff523f;}
-.all_offers_in .col-md-4{ padding:5px;}
-.offers_off {
-    margin-top: -117px;
-    display: -webkit-box;
-    background: rgba(120, 64, 61, 0.71);
-    width: 100%;
-    position: relative;
-    padding: 15px 0px;
-}
-.offers_off h4{
-    font-family: RadikalW01_Black_bold;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 24px;
-}
-.offers_off h4 span{
-    display: block;
-    font-family: RadikalW01_thin;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 38px;
-}
-.offers_off p{
-    font-family: RadikalW01_thin;
-    color: #fff;
-    font-size: 18px;
-    padding-top: 6px;
-}
-
-a.offers_link{
-    font-family: RadikalW01_Black_bold;
-    color: #ff523f;
-    font-size: 20px;
-    text-decoration: none;
-}
-#offers_out{ padding-top:40px;}
-
-#myCarousel_wedding .carousel-indicators {
-    position: absolute;
-    bottom: 70px;
-    right: 0%;
-    z-index: 15;
-    left: inherit;
-    width: 22%;
-}
-.wedding_slide_tag {
-    position: absolute;
-    z-index: 999;
-    top: 24%;
-    left: 10%;
-    color: #fff;
-}
-
-.wedding_slide_tag h3 {
-    font-family: RadikalW01_Black_bold;
-    display: table-caption;
-    text-transform: uppercase;
-    font-size: 50px;
-}
-.wedding_slide_tag h3  span{
-    font-family: RadikalW01_thin;
-
-}
-.wedding_forms {
-    display: block;
-    z-index: 999;
-    position: relative;
-    width: 50%;
-    left: 50%;
-    margin-top: -4%;
-}
-.wedding_forms .form-control{    border: none;}
-.wedd_btn{ width:100%; font-family: RadikalW01_Black_bold;     letter-spacing: 1px;
-    padding: 10px 0px;}
-.wedd_sel{width:100%;color: #4c1f1e;font-family: RadikalW01_Black_bold;height: 44px;     text-transform: uppercase;     letter-spacing: 1px;}
 #footersl{background: url(../images/footers.png);padding: 150px 0px 50px 0px;background-repeat: no-repeat;background-position-y: center;border-bottom: 8px solid #4c1f1e;}
 .site_menus ul {
     margin: 0px;
