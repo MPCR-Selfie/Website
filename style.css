@@ -697,10 +697,9 @@ body {
 }
 
 @media only screen and (max-width: 930px) {
-    /*body {*/
-        /*width:400px!important;*/
-        /*padding:0;*/
-    /*}*/
+    body{
+        overflow-x:hidden;
+    }
 
     .jain_container .nav>li>a {
         font-size: 20px;
@@ -782,7 +781,7 @@ body {
         color: #fcc500;
         font-size: 28px;
         text-align: center;
-        margin-right: 50px;
+        /*margin-right: 50px;*/
     }
 
     #subtitle {
