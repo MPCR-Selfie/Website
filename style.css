@@ -781,7 +781,7 @@ body {
         color: #fcc500;
         font-size: 45px;
         text-align: center;
-        margin-left: 35px;
+        margin-left: 40px;
     }
 
     #subtitle {
@@ -789,7 +789,7 @@ body {
         font-family: 'Oleo Script', cursive;
         color: #fff;
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
         letter-spacing: 10px;
     }
 }
