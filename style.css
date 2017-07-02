@@ -698,100 +698,6 @@ body {
 
 
 
-@media only screen and (max-width: 600px) {
-    .jain_container .nav>li>a {
-        font-size: 20px;
-        padding: 5px;
-        margin: 0px;
-    }
-    .medias ul li a {
-        margin-top: 0px;
-        display: none;
-    }
-
-    .classus {
-        display: none;
-    }
-    /*.carousel-slide {*/
-        /*max-width: 400px;*/
-    /*}*/
-
-    #image1 {
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    #image2 {
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    #image3 {
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    #image4 {
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    #image5 {
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    #image6 {
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    ol.carousel-indicators li{
-        display: none;
-    }
-
-
-
-    /*ol.carousel-indicators li.active{*/
-        /*width: 10px;*/
-        /*height: 10px;*/
-        /*border-color: transparent;*/
-        /*background-color: transparent;*/
-    /*}*/
-
-    .carousel {
-        height: 100%;
-        width: 100%;
-    }
-
-    .fill {
-        margin-left: 40px;
-        height: 300px;
-    }
-
-    #title {
-        /*font-family: 'Oleo Script', cursive;*/
-        font-family: 'Teko', sans-serif;
-        color: #fcc500;
-        font-size: 40px;
-        text-align: center;
-        margin-left: 30px;
-    }
-
-    #subtitle {
-        /*font-family: 'Teko', sans-serif;*/
-        font-family: 'Oleo Script', cursive;
-        color: #fff;
-        text-align: center;
-        font-size: 15px;
-        letter-spacing: 10px;
-    }
 }
 
 /*SPINNING SOCIAL MEDIA ICONS*/
@@ -884,3 +790,97 @@ a.socialIcon:hover, .socialHoverClass {
 
 
 
+@media only screen and (max-width: 600px) {
+    .jain_container .nav>li>a {
+        font-size: 20px;
+        padding: 5px;
+        margin: 0px;
+    }
+    .medias ul li a {
+        margin-top: 0px;
+        display: none;
+    }
+
+    .classus {
+        display: none;
+    }
+    /*.carousel-slide {*/
+    /*max-width: 400px;*/
+    /*}*/
+
+    #image1 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image2 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image3 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image4 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image5 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image6 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    ol.carousel-indicators li{
+        display: none;
+    }
+
+
+
+    /*ol.carousel-indicators li.active{*/
+    /*width: 10px;*/
+    /*height: 10px;*/
+    /*border-color: transparent;*/
+    /*background-color: transparent;*/
+    /*}*/
+
+    .carousel {
+        height: 100%;
+        width: 100%;
+    }
+
+    .fill {
+        margin-left: 40px;
+        height: 300px;
+    }
+
+    #title {
+        /*font-family: 'Oleo Script', cursive;*/
+        font-family: 'Teko', sans-serif;
+        color: #fcc500;
+        font-size: 40px;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    #subtitle {
+        /*font-family: 'Teko', sans-serif;*/
+        font-family: 'Oleo Script', cursive;
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+        letter-spacing: 10px;
+    }
