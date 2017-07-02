@@ -25,7 +25,7 @@ Pricing table
 
 .pricing-active {
     border: 3px solid #36d7ac;
-    margin-top: -10px;
+    /*margin-top: -10px;*/
     box-shadow: 7px 7px rgba(54, 215, 172, 0.2);
 }
 
@@ -115,7 +115,7 @@ Pricing table
     font-size: 13px;
     line-height: 17px;
     text-align: center;
-    padding: 0 20px 19px;
+    /*padding: 0 20px 19px;*/
     background-color: hsla(240, 41%, 50%, 0.54);
 }
 
@@ -678,6 +678,25 @@ body {
 
 .jain_container .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{    color: #f45541;    background-color: rgba(231, 231, 231, 0);}
 
+#title {
+    /*font-family: 'Oleo Script', cursive;*/
+    font-family: 'Teko', sans-serif;
+    color: #fcc500;
+    font-size: 85px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+#subtitle {
+    /*font-family: 'Teko', sans-serif;*/
+    font-family: 'Oleo Script', cursive;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+
+
 
 @media only screen and (max-width: 930px) {
     .jain_container .nav>li>a {
@@ -737,16 +756,41 @@ body {
         display: none;
     }
 
-    ol.carousel-indicators li.active{
-        width: 10px;
-        height: 10px;
-        border-color: transparent;
-        background-color: transparent;
-    }
+
+
+    /*ol.carousel-indicators li.active{*/
+        /*width: 10px;*/
+        /*height: 10px;*/
+        /*border-color: transparent;*/
+        /*background-color: transparent;*/
+    /*}*/
 
     .carousel {
-        height: 60%;
-        /*margin-top: 10px;*/
+        height: 100%;
+        width: 100%;
+    }
+
+    .fill {
+        margin-left: 40px;
+        height: 300px;
+    }
+
+    #title {
+        /*font-family: 'Oleo Script', cursive;*/
+        font-family: 'Teko', sans-serif;
+        color: #fcc500;
+        font-size: 40px;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    #subtitle {
+        /*font-family: 'Teko', sans-serif;*/
+        font-family: 'Oleo Script', cursive;
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+        letter-spacing: 10px;
     }
 }
 
@@ -838,21 +882,5 @@ a.socialIcon:hover, .socialHoverClass {
     background-color: #D3D3D3;
 }
 
-#title {
-    /*font-family: 'Oleo Script', cursive;*/
-    font-family: 'Teko', sans-serif;
-    color: #fcc500;
-    font-size: 85px;
-    text-align: center;
-    margin-right: 50px;
-}
 
-#subtitle {
-    /*font-family: 'Teko', sans-serif;*/
-    font-family: 'Oleo Script', cursive;
-    color: #fff;
-    text-align: center;
-    font-size: 35px;
-    letter-spacing: 10px;
-}
 
