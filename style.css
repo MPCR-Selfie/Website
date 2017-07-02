@@ -779,7 +779,7 @@ body {
         /*font-family: 'Oleo Script', cursive;*/
         font-family: 'Teko', sans-serif;
         color: #fcc500;
-        font-size: 28px;
+        font-size: 35px;
         text-align: center;
         margin-left: 30px;
     }
@@ -789,7 +789,7 @@ body {
         font-family: 'Oleo Script', cursive;
         color: #fff;
         text-align: center;
-        font-size: 15px;
+        font-size: 20px;
         letter-spacing: 10px;
     }
 }
