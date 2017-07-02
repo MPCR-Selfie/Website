@@ -790,12 +790,13 @@ a.socialIcon:hover, .socialHoverClass {
 
 
 
-@media handheld, screen and (max-width: 600px) {
-    .jain_container .nav>li>a {
+@media only screen and (max-width:600px) {
+    .jain_container .nav > li > a {
         font-size: 20px;
         padding: 5px;
         margin: 0px;
     }
+
     .medias ul li a {
         margin-top: 0px;
         display: none;
@@ -804,10 +805,10 @@ a.socialIcon:hover, .socialHoverClass {
     .classus {
         display: none;
     }
+
     /*.carousel-slide {*/
     /*max-width: 400px;*/
     /*}*/
-
     #image1 {
         background-size: contain;
         background-repeat: no-repeat;
@@ -844,11 +845,9 @@ a.socialIcon:hover, .socialHoverClass {
         background-position: center;
     }
 
-    ol.carousel-indicators li{
+    ol.carousel-indicators li {
         display: none;
     }
-
-
 
     /*ol.carousel-indicators li.active{*/
     /*width: 10px;*/
@@ -856,7 +855,6 @@ a.socialIcon:hover, .socialHoverClass {
     /*border-color: transparent;*/
     /*background-color: transparent;*/
     /*}*/
-
     .carousel {
         height: 100%;
         width: 100%;
@@ -884,3 +882,4 @@ a.socialIcon:hover, .socialHoverClass {
         font-size: 15px;
         letter-spacing: 10px;
     }
+}
