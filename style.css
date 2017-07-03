@@ -696,7 +696,7 @@ body {
     letter-spacing: 10px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     body{
         overflow-x:hidden;
         background-size: cover;
